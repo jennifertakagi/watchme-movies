@@ -2,6 +2,7 @@ import {  MovieProps, GenreResponseProps } from '../types/constants';
 
 import { MovieCard } from './MovieCard';
 
+import '../styles/content.scss';
 interface ContentProps {
   movies: MovieProps[];
   selectedGenre: GenreResponseProps;
