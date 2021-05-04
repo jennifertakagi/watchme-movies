@@ -6,7 +6,7 @@ import '../styles/sidebar.scss';
 
 interface SideBarProps {
   genres: GenreResponseProps[];
-  handleClickButton: Function;
+  handleClickButton: () => void;
   selectedGenreId: number;
 }
 
